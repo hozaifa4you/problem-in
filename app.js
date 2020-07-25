@@ -25,10 +25,16 @@ for (let index = 0; index < square.length; index++) {
         //compair Color
         var compairWith = String(this.style.backgroundColor);
 
+
+        //Help Me!! my condition is not working. whay?
+
+        //from there
         if (colorPicker === compairWith) {
             console.log("You are right.");
         } else {
             console.log("You are wrong.");
         }
+
+        //than
     });
 }
