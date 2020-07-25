@@ -23,7 +23,8 @@ for (let index = 0; index < square.length; index++) {
     square[index].style.background = colors[index];
     square[index].addEventListener("click", function() {
         //compair Color
-        var compairWith = String(this.style.backgroundColor);
+        var compairWith = this.style.backgroundColor;
+        console.log(typeof compairWith);
 
 
         //Help Me!! my condition is not working. whay?
